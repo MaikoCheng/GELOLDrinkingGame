@@ -6,7 +6,7 @@ var array = ["Start: Welcome to the game! You are at Jort and Maiko's appartment
 "3: Welcome to TU/e, drink 3 sips to celebrate you made it here!",
 "4: Give the amount of levels (10) in Atlas away in sips!",
 "5: This is where you meet your friends! Choose someone to be your drinking buddy (drink the same the entire game)!",
-"6: The BAC hosts a Borrel, where you meet Cas! Go to <a href='https://www.moetikeenriet.at/'>moetikeenriet.at!</a>",
+"6: The BAC hosts a Borrel, where you meet Cas! Go to moetikeenriet.at!",
 "7: You are safe, for now!",
 "8: You burned so many calories while sporting, give away 5 sips!",
 "9: Gefontyst, drink away your tears with a shot!",
