@@ -25,7 +25,7 @@ var array = ["Start: Welcome to the game! You are at Jort and Maiko's appartment
 "22: You go to Oriental to buy some Soju! Take 5 sips if you had asian quisine in the last week!",
 "23: You see Maiko, Mathew and Willem stand in Oriental ordering boba, everybody who had boba in the last 2 weeks takes 6 sips!",
 "24: If you see Willem, Ilse can't be far! There she is, standing there with a backpack full of ICEs! Take a shot if you haven't been iced in 2 weeks!",
-"25: You have a flat tire. Skip a turn and take 5 sips!",
+"25: Jelte sat on your bike... now you have a flat tire. Skip a turn and take 5 sips!",
 "26: You were just on time for the bus! Play a quick 4 card bus game!",
 "27: While on the bus, you see Jort so as usual, you sit on his lap! Go sit on Jort's lap or take 5 sips!",
 "28: You are safe, for now!",
