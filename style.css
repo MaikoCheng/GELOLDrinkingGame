@@ -309,7 +309,7 @@ button:hover{
 
 #dicebut{
     z-index: 1;
-    background: transparent;
+    background: white;
     border: none !important;
     font-size: 0;
     width: 4vw;
@@ -317,7 +317,8 @@ button:hover{
 }
 
 #dicebut:hover{
-    background: rgba(255,255,255,20%)
+    background: rgba(255,255,255,20%);
+    border-radius: 2px;
 }
 
 .pawn{
