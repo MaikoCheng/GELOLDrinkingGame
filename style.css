@@ -1,6 +1,7 @@
 body{
     background-image: url(Gelolgame.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     background-size:100vw 51vw;
 }
 #wholegrid{
@@ -10,7 +11,7 @@ body{
     margin-left: 5.9vw;
     margin-top: 4.3vw;
     grid-template-columns: 8.3vw;
-    grid-template-rows: 6.6vw;
+    grid-template-rows: 6.2vw;
     justify-items: center;
 }
 
@@ -30,7 +31,7 @@ button:hover{
 .vak {
     position: relative;
     width: 8.3vw;
-    height: 5.9vw;
+    height: 6vw;
     justify-content:center;
     align-items: center;
     flex-wrap: wrap;
@@ -264,7 +265,7 @@ button:hover{
   
 /* Modal Content */
 .modal-content {
-    background: linear-gradient(#ff4646, #d262ff);
+    background: radial-gradient(#4677ff, #6272ff);
     margin: auto;
     margin-top: 15%;
     padding: 5px 20px;
@@ -296,7 +297,10 @@ button:hover{
 
 #dice{
     display:flex;
-    z-index: 5;
+    z-index: 200;
+    background-color: rgb(204, 255, 251);
+    border-radius:14px;
+    border: 1px solid;
     background-image: url(Dice-6a.svg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -308,8 +312,8 @@ button:hover{
 }
 
 #dicebut{
-    z-index: 1;
-    background: white;
+    z-index: -1;
+    border-radius: 14px;
     border: none !important;
     font-size: 0;
     width: 4vw;
@@ -318,7 +322,7 @@ button:hover{
 
 #dicebut:hover{
     background: rgba(255,255,255,20%);
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
 .pawn{
@@ -383,5 +387,6 @@ input[type="number"]{
 #turntext{
     color: white;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
 }
