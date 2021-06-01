@@ -390,3 +390,35 @@ input[type="number"]{
     font-family: Helvetica, sans-serif;
     font-weight: 700;
 }
+
+#homebutton{
+    display: none;
+}
+
+#resetbut{
+    display:flex;
+    width: 4vw;
+    height:4vw;
+    margin:auto;
+    margin-left:4px;
+    border-radius:12px;
+    z-index:2;
+}
+#homebutdiv{
+    background: rgb(255, 204, 63);
+    border-radius: 12px;
+    display:flex;
+    align-items: center;
+    width: 4vw;
+    height:4vw;
+    justify-content: center;
+    margin-left: 95%;
+    left: 1000px;
+    transform: translateY(-120%)
+}
+#hometext{
+    z-index: 1;
+    color:rgb(89, 0, 255);
+    font-family: Helvetica, sans-serif;
+    font-size:auto;
+}

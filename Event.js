@@ -9,7 +9,7 @@ var array = ["Start: Welcome to the game! You are at Jort and Maiko's appartment
 "6: The BAC hosts a Borrel, where you meet Cas! Go to moetikeenriet.at!",
 "7: You are safe, for now!",
 "8: You burned so many calories while sporting, give away 5 sips!",
-"9: Gefontyst, drink away your tears with a shot!",
+"9: Gefontyst, drink away your tears with 5 shots!",
 "10: You almost got shanked while you biked in Woensel, take a shot to get rid of the PTSD!",
 "11: In Woensel, Marlou accompanies you playing Megan Thee Stallion on her speaker. Do your best Ahh! impression or take 3 sips!",
 "12: You are hungry! Let's get food at Çigköftem. Give away 5 sips!",
@@ -25,7 +25,7 @@ var array = ["Start: Welcome to the game! You are at Jort and Maiko's appartment
 "22: You go to Oriental to buy some Soju! Take 5 sips if you had asian quisine in the last week!",
 "23: You see Maiko, Mathew and Willem stand in Oriental ordering boba, everybody who had boba in the last 2 weeks takes 6 sips!",
 "24: If you see Willem, Ilse can't be far! There she is, standing there with a backpack full of ICEs! Take a shot if you haven't been iced in 2 weeks!",
-"25: Jelte sat on your bike... now you have a flat tire. Skip a turn and take 5 sips!",
+"25: You have a flat tire. Skip a turn and take 5 sips!",
 "26: You were just on time for the bus! Play a quick 4 card bus game!",
 "27: While on the bus, you see Jort so as usual, you sit on his lap! Go sit on Jort's lap or take 5 sips!",
 "28: You are safe, for now!",
@@ -258,3 +258,7 @@ window.onclick = function(event) {
       modal.style.display = "none";
     }
 }
+
+document.getElementById("resetbut").addEventListener("click",function(){
+    document.getElementById("homebutton").click();
+});
